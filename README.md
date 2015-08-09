@@ -7,6 +7,14 @@ Require
 * libev
 * iksemel
 
+Install
+------
+```
+cd xtproxy
+cmake .
+make
+```
+
 Config
 ------
 ```
