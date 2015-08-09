@@ -1,0 +1,10 @@
+<conf>
+    <pidfile>xtp.pid</pidfile>
+    <server>
+        <access port="9001" timeout="60" max="600000"></access>
+        <upstream max="1000">
+             <server ip="127.0.0.1" port="8081" timeout="10"></server>
+             <server ip="127.0.0.1" port="8080" timeout="10"></server>
+        </upstream>
+    </server>
+</conf>

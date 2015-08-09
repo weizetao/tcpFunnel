@@ -1,0 +1,5 @@
+build/
+*.[oa]
+.project
+.cproject
+.settings/
