@@ -1,4 +1,4 @@
-xTproxy
+tcproxy
 ======
 A tcp proxy server, support upstream connection queue & load balance!
 
